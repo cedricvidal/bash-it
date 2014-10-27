@@ -18,6 +18,9 @@ alias textedit='open -a TextEdit'
 alias hex='open -a "Hex Fiend"'
 alias skype='open -a Skype'
 alias mou='open -a Mou'
+alias quicklook="qlmanage -p"
+alias sublime="open -a 'Sublime Text 2'"
+
 
 if [ -s /usr/bin/firefox ] ; then
   unalias firefox
